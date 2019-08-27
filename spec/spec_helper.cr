@@ -1,2 +1,2 @@
 require "spec"
-require "../src/sentiment"
+require "../src/cadmium_sentiment"
