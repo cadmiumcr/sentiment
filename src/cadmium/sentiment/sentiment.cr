@@ -23,7 +23,7 @@ module Cadmium
     }
 
     # Manage the `Tokenizer` that the sentiment analyzer uses.
-    class_property tokenizer : Cadmium::Tokenizer = Cadmium::TreebankWordTokenizer.new
+    class_property tokenizer : Cadmium::Tokenizer = Cadmium::TreebankWord.new
 
     # Set the sentiment data. Format should look like:
     #
